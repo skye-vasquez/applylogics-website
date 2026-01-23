@@ -262,6 +262,19 @@ body::after {
     transition: all 0.3s ease;
 }
 
+.binary-logo {
+    height: 32px;
+    width: auto;
+    margin-right: 12px;
+    filter: drop-shadow(0 0 5px rgba(166, 226, 46, 0.5));
+}
+
+.logo-text {
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
 .logo-link:hover .logo-svg {
     filter: drop-shadow(0 0 8px rgba(102, 217, 239, 0.5));
 }
